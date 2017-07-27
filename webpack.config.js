@@ -58,7 +58,7 @@ if(isDev) {
     xhtml: true,
     inject: false,
     template: require('html-webpack-template'),
-    appMountId: 'root-container'
+    appMountId: 'container'
   })]
   config.target = 'web'
 }

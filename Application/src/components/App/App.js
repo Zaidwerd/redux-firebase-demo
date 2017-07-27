@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from './Nav/Nav.js'
 import style from './App.css';
 
 export default class App extends React.Component {
@@ -13,7 +14,7 @@ render() {
   return (
 
       <div>
-        <h1>Hello React</h1>
+        <Nav />
       </div>
     );
   }

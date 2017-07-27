@@ -7,7 +7,7 @@ render() {
   return (
     <div id='nav-container'>
       <h1 id='nav-header'>Demo</h1>
-      <ul id='nav-list'>
+      <ul>
         <li className='nav-list-item'>React</li>
         <li className='nav-list-item'>Redux</li>
         <li className='nav-list-item'>Firebase</li>
